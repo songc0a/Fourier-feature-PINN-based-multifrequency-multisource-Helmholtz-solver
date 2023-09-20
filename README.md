@@ -17,10 +17,9 @@ GPU usage: pip install --pre "tensorflow-gpu==1.15.*"
 
 # Code explanation
 
-helm_pinn_solver_layermodel.py: Tensorflow code for solving the Helmholtz equation using PINN  
-helm_pinn_solver_layermodel_sx.py: Tensorflow code for solving the Helmholtz equation for multiple sources using PINN  
-helm_pinn_vti_layermodel.py: Tensorflow code for solving the Helmholtz equation in acoustic VTI media for using PINN  
-Layer_training_data_generation*.m: Matlab code for generating training and test data  
+helm_solver_ffpinn_4D.py: Tensorflow code for solving the multifrequency-multisource scattered wavefields using Fourier feature PINN  
+helm_solver_ffpinn_4D_test.py: Tensorflow code for a new velocity using the saved model
+Sigsbee_sourceinput_data_generation_fre.m: Matlab code for generating training and test data  
 
 # Citation information
 
