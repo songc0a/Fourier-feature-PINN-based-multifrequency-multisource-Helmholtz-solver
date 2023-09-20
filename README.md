@@ -1,15 +1,12 @@
-# PINN-based-multi-frequency-Helmholtz-solver
+# Fourier feature PINN-based-multifrequency-multisource-Helmholtz-solver
 **This repository reproduces the results of the paper "[Simulating seismic multifrequency wavefields with the Fourier feature physics-informed neural network.](https://academic.oup.com/gji/article/232/3/1503/6758508)" Geophysical Journal International 232, 1503–1514.
 
 # Overview
 
-We propose to use the physics Informed Neural Network (PINN) to solve the scattered form of acoustic isotropic and anisotropic wave equations
+We propose to use the Fourier feature physics Informed Neural Network (PINN) to solve for multifrequency multisource scattered wavefields for the Helmholtz equation. The proposed method breaks the limitation of the numerical solver in single-frequency wavefield simulation.
+![FFPINN-en](https://github.com/songc0a/Fourier-feature-PINN-based-multifrequency-multisource-Helmholtz-solver/assets/31889731/066826f7-c0ae-4188-bf29-8956fcd693ca)
 
-PINN reduces the computational cost by avoid computing the inverse of the impedance matrix, which is suitable for anisotropic large models 
-
-The resulting scattered wavefields are free of numerical dispersion artifacts
-
-![du](https://user-images.githubusercontent.com/31889731/116671800-09454080-a9aa-11eb-8e73-d23e85e58639.jpg)
+![FFPINN](https://github.com/songc0a/Fourier-feature-PINN-based-multifrequency-multisource-Helmholtz-solver/assets/31889731/06bda160-ad30-499f-825a-5712b6ae5c83)
 
 
 # Installation of Tensorflow1
