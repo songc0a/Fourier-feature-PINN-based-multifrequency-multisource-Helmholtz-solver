@@ -3,10 +3,9 @@
 
 # Overview
 
-We propose to use the Fourier feature physics Informed Neural Network (PINN) to solve for multifrequency multisource scattered wavefields for the Helmholtz equation. The proposed method breaks the limitation of the numerical solver in single-frequency wavefield simulation.
-![FFPINN-en](https://github.com/songc0a/Fourier-feature-PINN-based-multifrequency-multisource-Helmholtz-solver/assets/31889731/066826f7-c0ae-4188-bf29-8956fcd693ca)
+We propose to use the Fourier feature physics Informed Neural Network (PINN) to solve for multifrequency multisource scattered wavefields for the Helmholtz equation. The proposed method breaks the limitation of the numerical solver in single-frequency wavefield simulation. The structure of Fourier feature PINN is shown below.
+![FFPINN](https://github.com/songc0a/Fourier-feature-PINN-based-multifrequency-multisource-Helmholtz-solver/assets/31889731/893e2f4b-58f1-4f5d-a4e9-6bfeba45e52a)
 
-![FFPINN](https://github.com/songc0a/Fourier-feature-PINN-based-multifrequency-multisource-Helmholtz-solver/assets/31889731/06bda160-ad30-499f-825a-5712b6ae5c83)
 
 
 # Installation of Tensorflow1
